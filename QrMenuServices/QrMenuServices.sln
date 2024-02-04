@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{538206B8-D39F-4A57-8C59-767516A16A7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorePackages", "src\CorePackages\CorePackages.csproj", "{0577BE1E-23E6-486B-8EC7-E6487FA90A1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenuServices.Business", "src\QrMenuServices.Business\QrMenuServices.Business.csproj", "{10D734D7-D3CD-4497-8A70-209E3A4BA53C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenuServices.DataAccess", "src\QrMenuServices.DataAccess\QrMenuServices.DataAccess.csproj", "{DBB5EFED-8738-409F-8F6F-47DEF636548A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenuServices.Models", "src\QrMenuServices.Models\QrMenuServices.Models.csproj", "{07E01091-CBE8-4DF1-93E4-8E639EFBC410}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenuServices.WebApi", "src\QrMenuServices.WebApi\QrMenuServices.WebApi.csproj", "{75B2B8CA-C17D-4094-8E7F-ECE898CFD461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{797435AF-3229-4B89-910C-557C627B2C7E}"
+	ProjectSection(SolutionItems) = preProject
+		Todos.txt = Todos.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0577BE1E-23E6-486B-8EC7-E6487FA90A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0577BE1E-23E6-486B-8EC7-E6487FA90A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0577BE1E-23E6-486B-8EC7-E6487FA90A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0577BE1E-23E6-486B-8EC7-E6487FA90A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D734D7-D3CD-4497-8A70-209E3A4BA53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D734D7-D3CD-4497-8A70-209E3A4BA53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D734D7-D3CD-4497-8A70-209E3A4BA53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D734D7-D3CD-4497-8A70-209E3A4BA53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB5EFED-8738-409F-8F6F-47DEF636548A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB5EFED-8738-409F-8F6F-47DEF636548A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB5EFED-8738-409F-8F6F-47DEF636548A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB5EFED-8738-409F-8F6F-47DEF636548A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E01091-CBE8-4DF1-93E4-8E639EFBC410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E01091-CBE8-4DF1-93E4-8E639EFBC410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E01091-CBE8-4DF1-93E4-8E639EFBC410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E01091-CBE8-4DF1-93E4-8E639EFBC410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B2B8CA-C17D-4094-8E7F-ECE898CFD461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B2B8CA-C17D-4094-8E7F-ECE898CFD461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B2B8CA-C17D-4094-8E7F-ECE898CFD461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B2B8CA-C17D-4094-8E7F-ECE898CFD461}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0577BE1E-23E6-486B-8EC7-E6487FA90A1A} = {538206B8-D39F-4A57-8C59-767516A16A7B}
+		{10D734D7-D3CD-4497-8A70-209E3A4BA53C} = {538206B8-D39F-4A57-8C59-767516A16A7B}
+		{DBB5EFED-8738-409F-8F6F-47DEF636548A} = {538206B8-D39F-4A57-8C59-767516A16A7B}
+		{07E01091-CBE8-4DF1-93E4-8E639EFBC410} = {538206B8-D39F-4A57-8C59-767516A16A7B}
+		{75B2B8CA-C17D-4094-8E7F-ECE898CFD461} = {538206B8-D39F-4A57-8C59-767516A16A7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16538B17-199C-4B1C-9F6D-99C0F20435EE}
+	EndGlobalSection
+EndGlobal

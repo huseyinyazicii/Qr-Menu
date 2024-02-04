@@ -1,0 +1,1 @@
+- Controller da bulunan authorize ile ilgili yorumlarý sil.
